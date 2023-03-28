@@ -16,6 +16,7 @@
 
 .carousel-button {
     position: absolute;
+    z-index: 12;
     top: 50%;
     transform: translateY(-50%);
     width: 50px;
