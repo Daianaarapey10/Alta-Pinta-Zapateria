@@ -126,6 +126,7 @@
 }
 
 .section-five {
+    padding: 20px;
     height: 100vh;
     background-color: #ffffff;
     background-image: linear-gradient(0deg, #ffffff 0%, #f3468e 100%);
@@ -153,7 +154,7 @@
 }
 
 .top-image-container:hover >  .img-shoes{
-    transform: scale(1);
+    transform: scale(0.8);
 }
 
 .info-container-five {
@@ -225,19 +226,19 @@
         align-items: center;
         text-align: center;
         height: auto;
-    }
-
-    .img-shoes {
-        position: absolute;
-        transform: scale(0.5);
-        top: auto;
-        left: 0;
-        bottom: 20%;
-        transition: transform ease-in-out 200ms;
+        padding: 20px;
     }
 
     .footer-col {
         width: 100%;
     }
+    
+    .blob-image{
+        min-width: auto;
+    }
+
+    .img-shoes{
+        top: 50px;
+        left: -50px    }
 }
 
