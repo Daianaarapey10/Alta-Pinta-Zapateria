@@ -24,6 +24,7 @@
 .product-item > img {
     transform: scale(0.8);
     transition: transform ease-out 500ms ;
+    max-height: 130px;
 }
 
 .product-item:hover > img {
