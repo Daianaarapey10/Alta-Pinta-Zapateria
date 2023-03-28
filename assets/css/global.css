@@ -1,0 +1,22 @@
+:root {
+    --main-color: #e91e63;
+}
+
+html, body {
+    width: 100%;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
